@@ -2,11 +2,12 @@ var gulp = require('gulp');
 var concat = require('gulp-concat');
 var rename = require('gulp-rename');
 var shell = require('gulp-shell');
+var less = require('gulp-less');
 var traceur = require('gulp-traceur');
 var webserver = require('gulp-webserver');
 
 // run init tasks
-gulp.task('default', ['dependencies', 'angular2', 'js', 'html', 'css']);
+gulp.task('default', ['dependencies', 'angular2', 'js', 'html', 'css', 'less']);
 
 // run development task
 gulp.task('dev', ['watch', 'serve']);
@@ -24,6 +25,7 @@ gulp.task('watch', function() {
   gulp.watch('src/**/*.js', ['js']);
   gulp.watch('src/**/*.html', ['html']);
   gulp.watch('src/**/*.css', ['css']);
+  gulp.watch('src/**/*.less', ['less']);
 });
 
 // move dependencies into build dir
@@ -89,5 +91,12 @@ gulp.task('html', function() {
 // move css
 gulp.task('css', function() {
   return gulp.src('src/**/*.css')
-    .pipe(gulp.dest('build'))
+    .pipe(gulp.dest('build/css'))
+});
+
+// less
+gulp.task('less', function() {
+    return gulp.src('./src/less/main.less')
+        .pipe(less())
+        .pipe(gulp.dest('build/css/'))
 });
