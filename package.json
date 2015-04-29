@@ -4,11 +4,13 @@
   "dependencies": {
     "angular2": "^2.0.0-alpha.18",
     "es6-module-loader": "~0.11.0",
-    "systemjs": "~0.11.0"
+    "systemjs": "~0.11.0",
+    "kickevent-ui": "https://github.com/kickevent/ui.git"
   },
   "devDependencies": {
     "gulp": "^3.8.11",
     "gulp-concat": "^2.5.2",
+    "gulp-less": "^3.0.3",
     "gulp-rename": "^1.2.0",
     "gulp-shell": "^0.4.0",
     "gulp-traceur": "^0.17.0",
