@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/main.css" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+
+    <title>front</title>
+  </head>
+  <body>
+
+    <main>Loading...</main>
+
+    <script src="lib/system.js"></script>
+    <script src="lib/zone.js"></script>
+    <script src="lib/Reflect.js"></script>
+
+    <script>
+      System.config({
+        paths: {
+          'angular2/*': 'lib/angular2.js',
+          'traceur-runtime': 'lib/traceur-runtime.js',
+          'rx': 'lib/rx.all.js',
+          'index': 'index.js'
+        }
+      });
+
+      System.import('index');
+    </script>
+
+  </body>
+</html>

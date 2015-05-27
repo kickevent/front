@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/../front.tmp/src/components/index.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gulpfile.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/package.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/app.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/event/event.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/event/event.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/home/home.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/home/home.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/index.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/index.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/plop" charset="UTF-8" />
+  </component>
+</project>
